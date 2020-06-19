@@ -3,11 +3,6 @@ package visualizer;
 import java.awt.*;
 
 public class SceneDrawer {
-
-    public SceneDrawer() {
-
-    }
-
     public void drawScene(Graphics g) {
         drawDependency(g, new Point(130, 100), new Point(180, 140));
         drawDependency(g, new Point(130, 100), new Point(160, 140));
